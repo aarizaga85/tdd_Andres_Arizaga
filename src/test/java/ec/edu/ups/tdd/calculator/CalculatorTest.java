@@ -20,14 +20,12 @@ public class CalculatorTest  {
 
     @Test
     public void given_two_integers_when_addition_then_ok(){
-        Calculator c = new Calculator();
         System.out.println("Test 1");
         assertEquals(6, c.addition(4,2));
     }
 
     @Test
     public void given_two_integers_when_subtraction_then_ok(){
-        Calculator c = new Calculator();
         System.out.println("Test 2");
         assertEquals(2, c.subtraction(4,2));
     }
